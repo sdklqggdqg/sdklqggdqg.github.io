@@ -115,4 +115,20 @@ height: 300px;
 
 
 
+img[src="journal2.jpg"] {
+  width: 25%;
+  margin-left: 100px;
+}
 
+
+img[src="journal.jpg"] {
+  width: 25%;
+  margin-left: 500px;
+}
+
+img {
+    border: 2px solid black;
+  }
+</style>
+
+<img src="journal.jpg">
