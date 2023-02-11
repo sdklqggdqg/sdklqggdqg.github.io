@@ -1,0 +1,118 @@
+{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+font-family: 'Inter', sans-serif;
+background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(logo.jpg);
+background-size: 100% auto;
+background-position: center;
+background-color: #00008B;
+}
+
+
+
+}
+
+.header {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100vh;
+color: white;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  transition: background-color 0.5s ease;
+}
+
+button:hover {
+  background-color: blue;
+}
+.box {
+  width: 1000px;
+  height: 20px;
+  background-color: red;
+  animation: move 5s ease infinite;
+}
+
+@keyframes move {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(2000px);
+  }
+}
+
+
+h1 {
+font-size: 40px;
+}
+
+.content {
+padding: 50px;
+background-color: white;
+}
+
+h2 {
+font-size: 40px;
+margin-top: 50px;
+}
+
+p {
+font-size: 18px;
+text-align: justify;
+margin: 20px 50px;
+}
+
+.highlight {
+font-weight: bold;
+color: red;
+}
+
+.center {
+display: block;
+margin: 0 auto;
+width: 50%;
+}
+
+img {
+width: 100%;
+height: auto;
+}
+
+img[src="bastillo.jpg"] {
+  width: 50%;
+}
+
+img[src="usine.jpg"] {
+  width: 50%;
+  margin-left: 500px;
+}
+
+img[src="diagram2.jpg"] {
+  width: 95%;
+
+}
+
+
+img[src="logo.jpg"] {
+  width: 100%;
+}
+
+img {
+  border-radius: 10%;
+}
+
+.img-container {
+height: 300px;
+}
+
+
+
+
